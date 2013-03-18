@@ -1,0 +1,86 @@
+@book{voit_canonical_1991,
+	address = {New York},
+	title = {Canonical nonlinear modeling : S-system approach to understanding complexity},
+	isbn = {9780442004798},
+	shorttitle = {Canonical nonlinear modeling},
+	publisher = {Van Nostrand Reinhold},
+	author = {Voit, Eberhard},
+	year = {1991},
+	keywords = {for systempaper}
+},
+
+@article{vilela_parameter_2008,
+	title = {Parameter optimization in {S}-system models},
+	volume = {2},
+	issn = {1752-0509},
+	url = {http://www.ncbi.nlm.nih.gov/pubmed/18416837},
+	doi = {10.1186/1752-0509-2-35},
+	abstract = {{BACKGROUND} The inverse problem of identifying the topology of biological networks from their time series responses is a cornerstone challenge in systems biology. We tackle this challenge here through the parameterization of S-system models. It was previously shown that parameter identification can be performed as an optimization based on the decoupling of the differential S-system equations, which results in a set of algebraic equations. {RESULTS} A novel parameterization solution is proposed for the identification of S-system models from time series when no information about the network topology is known. The method is based on eigenvector optimization of a matrix formed from multiple regression equations of the linearized decoupled S-system. Furthermore, the algorithm is extended to the optimization of network topologies with constraints on metabolites and fluxes. These constraints rejoin the system in cases where it had been fragmented by decoupling. We demonstrate with synthetic time series why the algorithm can be expected to converge in most cases. {CONCLUSION} A procedure was developed that facilitates automated reverse engineering tasks for biological networks using S-systems. The proposed method of eigenvector optimization constitutes an advancement over S-system parameter identification from time series using a recent method called Alternating Regression. The proposed method overcomes convergence issues encountered in alternate regression by identifying nonlinear constraints that restrict the search space to computationally feasible solutions. Because the parameter identification is still performed for each metabolite separately, the modularity and linear time characteristics of the alternating regression method are preserved. Simulation studies illustrate how the proposed algorithm identifies the correct network topology out of a collection of models which all fit the dynamical time series essentially equally well.},
+	journal = {{BMC} Systems Biology},
+	author = {Vilela, Marco and Chou, {I-Chun} and Vinga, Susana and Vasconcelos, Ana Tereza R and Voit, Eberhard O and Almeida, Jonas S},
+	year = {2008},
+	note = {{PMID:} 18416837},
+	keywords = {for systempaper, S-system, time series},
+	pages = {35}
+},
+
+@article{chou_parameter_2006,
+	title = {Parameter estimation in biochemical systems models with alternating regression},
+	volume = {3},
+	issn = {1742-4682},
+	url = {http://www.ncbi.nlm.nih.gov/pubmed/16854227},
+	doi = {10.1186/1742-4682-3-25},
+	abstract = {{BACKGROUND} The estimation of parameter values continues to be the bottleneck of the computational analysis of biological systems. It is therefore necessary to develop improved methods that are effective, fast, and scalable. {RESULTS} We show here that alternating regression {(AR)}, applied to S-system models and combined with methods for decoupling systems of differential equations, provides a fast new tool for identifying parameter values from time series data. The key feature of {AR} is that it dissects the nonlinear inverse problem of estimating parameter values into iterative steps of linear regression. We show with several artificial examples that the method works well in many cases. In cases of no convergence, it is feasible to dedicate some computational effort to identifying suitable start values and search settings, because the method is fast in comparison to conventional methods that the search for suitable initial values is easily recouped. Because parameter estimation and the identification of system structure are closely related in S-system modeling, the {AR} method is beneficial for the latter as well. Specifically, we show with an example from the literature that {AR} is three to five orders of magnitudes faster than direct structure identifications in systems of nonlinear differential equations. {CONCLUSION} Alternating regression provides a strategy for the estimation of parameter values and the identification of structure and regulation in S-systems that is genuinely different from all existing methods. Alternating regression is usually very fast, but its convergence patterns are complex and will require further investigation. In cases where convergence is an issue, the enormous speed of the method renders it feasible to select several initial guesses and search settings as an effective countermeasure.},
+	journal = {Theoretical Biology \& Medical Modelling},
+	author = {Chou, {I-Chun} and Martens, Harald and Voit, Eberhard O},
+	year = {2006},
+	note = {{PMID:} 16854227},
+	keywords = {for systempaper, S-system, time series},
+	pages = {25}
+}
+
+@article{rsolnp,
+	title = {Interior algorithms for linear, quadratic, and linearly constrained non linear programming},
+	journal = {PhD Thesis,Department of EES Stanford University, Stanford CA.},
+	author = {Y.Ye},
+	year={2010},
+	month={10}
+}
+
+@article{spem,
+	title = {An {S}-System Parameter Estimation Method {(SPEM)} for biological networks},
+	volume = {19},
+	issn = {1557-8666},
+	doi = {10.1089/cmb.2011.0269},
+	abstract = {Advances in experimental biology, coupled with advances in computational power, bring new challenges to the interdisciplinary field of computational biology. One such broad challenge lies in the reverse engineering of gene networks, and goes from determining the structure of static networks, to reconstructing the dynamics of interactions from time series data. Here, we focus our attention on the latter area, and in particular, on parameterizing a dynamic network of oriented interactions between genes. By basing the parameterizing approach on a known power-law relationship model between connected genes {(S-system)}, we are able to account for non-linearity in the network, without compromising the ability to analyze network characteristics. In this article, we introduce the S-System Parameter Estimation Method {(SPEM).} {SPEM}, a freely available R software package {(http://www.picb.ac.cn/ClinicalGenomicNTW/temp3.html)}, takes gene expression data in time series and returns the network of interactions as a set of differential equations. The methods, which are presented and tested here, are shown to provide accurate results not only on synthetic data, but more importantly on real and therefore noisy by nature, biological data. In summary, {SPEM} shows high sensitivity and positive predicted values, as well as free availability and expansibility (because based on open source software). We expect these characteristics to make it a useful and broadly applicable software in the challenging reconstruction of dynamic gene networks.},
+	number = {2},
+	journal = {Journal of computational biology: a journal of computational molecular cell biology},
+	author = {Yang, Xinyi and Dent, Jennifer E and Nardini, Christine},
+	month = feb,
+	year = {2012},
+	note = {{PMID:} 22300319},
+	keywords = {Review\_1},
+	pages = {175--187}
+},
+
+@misc{sosdata,
+      title = {Uri {A}lon's Homepage},
+      month = {},
+      year = {},
+      howpublished = {http://www.weizmann.ac.il/mcb/UriAlon/}
+}
+
+@article{sosresponse,
+	title = {After 30 years of study, the bacterial {SOS} response still surprises us},
+	volume = {3},
+	issn = {1545-7885},
+	doi = {10.1371/journal.pbio.0030255},
+	number = {7},
+	journal = {{PLoS} biology},
+	author = {Michel, B\'en\'edicte},
+	month = jul,
+	year = {2005},
+	note = {{PMID:} 16000023},
+	keywords = {Adenosine Triphosphatases, Bacterial Proteins, {DNA} Damage, {DNA-Binding} Proteins, Drug Resistance, Bacterial, Escherichia coli Proteins, Serine Endopeptidases, {SOS} Response (Genetics)},
+	pages = {e255}
+}
