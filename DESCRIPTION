@@ -2,7 +2,7 @@ Package: SPEM
 Type: Package
 Title: S-system parameter estimation method
 Depends: R (>= 2.15.1), Rsolnp, Biobase, methods
-Version: 0.99.3
+Version: 1.0.0
 Date: 2013-1-12
 Author: Xinyi YANG Developer, Jennifer E. DENT Developer and Christine NARDINI Supervisor
 Maintainer: Xinyi YANG <yangxinyi@picb.ac.cn>
